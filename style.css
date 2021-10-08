@@ -1,0 +1,38 @@
+canvas{
+    border:groove 3px tomato; 
+    animation-name: ani; 
+    animation-duration: 7s; 
+    animation-iteration-count: infinite;
+}
+@keyframes ani { 
+        0% {
+            background: black;
+        }
+        11%{
+            background:maroon;
+        }
+        22%{
+            background: red;
+        }
+        33%{
+            background:orangered ;
+        }
+        44%{
+            background: orange;
+        }
+        55%{
+            background: yellow;
+        }
+        66% {
+            background: white; 
+        } 
+        77%{
+            background:lightgrey;
+        }  
+        88%{
+            background: grey;
+        }
+        100%{
+            background: darkgray;
+        }
+}
